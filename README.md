@@ -44,7 +44,7 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
     ```bash
      python quickstart.py
     ```
-## Screenshot
+## Screenshots
 
 A Successful execution should look like ![this](https://github.com/Mansi242401/text_df_googlesheet/blob/main/Screen%20Shot%202023-09-02%20at%206.20.31%20PM.png) in the terminal.
 
