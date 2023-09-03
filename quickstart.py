@@ -1,9 +1,10 @@
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
-import wrangling
+from wrangling import DataProcessor
 
-file_path = "data_copy.txt"
-df = wrangling.main(file_path)
+file_path = "data_copy.txt"  # Adjust the file path as needed
+processor = DataProcessor(file_path)
+df = processor.main()
 df.insert(0, 'Ticker', df.index)
 values_to_write = df.T.reset_index().T.values.tolist()
 
