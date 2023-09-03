@@ -21,7 +21,7 @@ Following are the steps to run this program:
 8. Add quickstart.py file in the same repository - I took this code from [here](https://developers.google.com/sheets/api/quickstart/python) and tweaked it as per the requirement.
 9. Add data.txt file too
 10. Run the quickstart.py file from terminal in venv from within PyCharm using ``` python quickstart.py``` command in terminal.
-A Successful attempt should like this  ![Executed]()
+A Successful attempt should like this  ![Executed](https://github.com/Mansi242401/text_df_googlesheet/blob/main/Screen%20Shot%202023-09-02%20at%206.20.31%20PM.png)
 
 
 
