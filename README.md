@@ -13,6 +13,7 @@ Following are the steps to run this program:
 
    a. ```pip install pandas``` <br>
    (I used version 1.5.2 - You can use any latest version)<br>
+   
    b. ```pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib``` <br> (This is required for communicating with Google APIs to populate data into google spreadsheet)
 
 6. Set up Credentials for GoogleSheets API - follow [Google's documentation](https://developers.google.com/sheets/api/quickstart/python) for same or You can watch [this](https://www.youtube.com/watch?v=4ssigWmExak&t=607s) video that has explained in detail how to do it
