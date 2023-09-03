@@ -10,7 +10,7 @@ This project automates the process of converting JSON-like data from a text file
 
 ### Prerequisites : <br>
 - Python 3.9
-- PyCharm (I used 2022.2 Community Edition)
+- PyCharm (IDE)
 
 ### Installation
 1. Install Python 3.9.
