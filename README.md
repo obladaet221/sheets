@@ -30,7 +30,7 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 ## Setting Up Google Sheets API
 
 5. Set up Credentials for GoogleSheets API - follow [Google's documentation](https://developers.google.com/sheets/api/quickstart/python) for same or You can watch [this](https://www.youtube.com/watch?v=4ssigWmExak&t=607s) video that has explained in detail how to do it
-6. When a connection is set up using the above, a new file containing the keys will be downloaded automatically, move that to the `venv` folder
+6. When you create a service account and generate API keys using the above steps, a new file containing the keys will be downloaded automatically, move that to the `venv` folder
 
 ## Writing the logic
 
