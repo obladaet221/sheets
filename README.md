@@ -16,11 +16,12 @@ Following are the steps to run this program:
    b. ```pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib``` <br> (This is required for communicating with Google APIs to populate data into google spreadsheet)
 
 6. Set up Credentials for GoogleSheets API - follow [Google's documentation](https://developers.google.com/sheets/api/quickstart/python) for same or You can watch [this](https://www.youtube.com/watch?v=4ssigWmExak&t=607s) video that has explained in detail how to do it
+7. When a connection is set up using the above, a new file containing the keys will be created, we need to put th
 
-7. Create wrangle.py in venv repository created in Pycharm projects. This is where your data wrangling/transformation logic is.
-8. Add quickstart.py file in the same repository - I took this code from [here](https://developers.google.com/sheets/api/quickstart/python) and tweaked it as per the requirement.
-9. Add data.txt file too
-10. Run the quickstart.py file from terminal in venv from within PyCharm using ``` python quickstart.py``` command in terminal.
+8. Create wrangle.py in venv repository created in Pycharm projects. This is where your data wrangling/transformation logic is.
+9. Add quickstart.py file in the same repository - I took this code from [here](https://developers.google.com/sheets/api/quickstart/python) and tweaked it as per the requirement.
+10. Add data.txt file too
+11. Run the quickstart.py file from terminal in venv from within PyCharm using ``` python quickstart.py``` command in terminal.
 A Successful attempt should like this  ![Executed](https://github.com/Mansi242401/text_df_googlesheet/blob/main/Screen%20Shot%202023-09-02%20at%206.20.31%20PM.png)
 
 
