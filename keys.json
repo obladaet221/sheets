@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "excel-wb-api",
+  "private_key_id": "90b644553722bc061f96ba8f93b9995b24c29878",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDcz5NXy391F32n\nML9Cwr8TU2m8HrlvTUsy26QP1ZdpCTHjsnATuC+kzrTNH7Vnoca7aJIweMBcb5qq\nzE5xGqxMErsoGVa3cxbmWEa3bRwe0oyzwmLkKtETyGWkWpZ0xmAvNA4NKcMR1Gqj\n/TEvEuY+V4X4H/0TYdKcGoaa2+qVnVccu0ityu/+2ObFOqUe4Eec/rV4wiR9JWom\n7lbzAg1WMryjeI7u1TUJX/B3kFFQgmJIcZXiRSOAVMdepS/qRrEi/BcRImfAitM9\nDj+HJlhqQhPYEMH2DF8Tt02QmT3J/Mfk/PHBfOxH+O5jlhHX1YwFdwuF2S2QRMpb\nDFJQfC83AgMBAAECggEAQs1dwzrihZckwZcC1fy69+rNW0dkTGLy9CD04oF4/CL2\n/+7071JSv6Z1lnUYWZDc4cfCKn3tnEl7Xl7PAHLUW3NzQa9gx8E+1VMxmb6dukly\nndOaPXMiq7x925o4WH3HjaBO+/Z9eIBt/szTu20ZURUDh8yNsPZwVB/GR0VvE/Hk\n9UVDxlosskxCt79zIa2wxOCBt+w+jns6mxIknlmemKt9TqI4jlqTOQMSXMpjQ7AJ\nkIHPuw445uTbZwCoe31ub8nA+47AW2bu4kigEc+6Zu6ZnTBM+mYDra7c5bmh6RhT\nMhvtDie8pH1e+atgI1BANRJveG3DFG3JRC0gaTBRuQKBgQD3qUwaO1XAezEJdVfI\nArQhE13beTsrC2+KpHih0wYfCI6VAiT3vurlw2teQ2KFSJzylUlz6DA4WBoPz4tc\nT0mivLU2di84xrJQqv8HOT+uP0/E5bbdm1l8wQoDRLZ2temcMouxvELUdrlr0Wbd\nyMrS3Gsbc5oNJD59EXkFUktbawKBgQDkPteVsaKiVPEZcREqpKAeFgbEyqeEwHzG\nx6TTho0s1LJEf8ZwBMNB3QSuGEer2pxuLqBZsUlGqSfZZv8UiVBClfHA6n1Ga+39\nzAAicG3zWweUbVyj2fTZUIOAIWzmDpw2Ka4jtDwO58dfq5O/x7Z0c/2cmVarxnxR\nkxbm6LjaZQKBgEln+6+WwK8BlKJKDo+xBXT8SYiA4WG7zP7aCwtkAd926NQPw6dP\nBk694ngZHv2EbUiVqSTawFgi/O6MxLDCq3+50ThoRUzd0AKK/HZGqLJb/6fLsqzy\nm86XZQFc/3wmJSzv6mnu9BwHaKQleAjqt/tR68lCNXoJsR/e6vEB2GYrAoGAX2s+\nKWCXwxGLsb0pFhC4t5sxvTeTjNYD0/5Gk/+eKW3KEQTx6oazMme5uyZ/YAMGfrGT\na6vIHHg/Jo3+eZFmMlAJP0NImBYq6n1MWRlzfddCdfS6U+2chPU55GkU46CcAbCv\nElIZAYo4OXC7VeOiDVEoZz1blHhoJJo/as1D6lkCgYB348MWNlYcg90BYp+VAw00\n+4HTBVut0HKnTKamY2nFBMnubBRE0QuJagS1a7xyGFg9hZKrCjWzLFKxbTk6aWDl\nwOZfMNXLGIEX5cWysX2tM1C2K9kOcK+ienkbKRSDqXCRv9RiP5Icg+/6UpPRvBAe\nGSYqriTh8PsCcLJlR8AYMw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "somename221@excel-wb-api.iam.gserviceaccount.com",
+  "client_id": "114332690627274124409",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/somename221%40excel-wb-api.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
