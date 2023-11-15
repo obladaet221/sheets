@@ -32,7 +32,7 @@ sheet = service.spreadsheets()
 #переменная с ручным массивом работает
 aoa = [["lastChangeDate", "2023-10-19T03,50,53"],["1/1/2222",5000],["1/1/2222",7000]]
 
-#переменная с values_to_write (файл file_path = "data_copy.txt") - работает
+#переменная с values_to_write (файл file_path = "data.txt") - работает
 
 #!!!не работает, если изменить в строке 5 data_copy.txt на data221.json
 
