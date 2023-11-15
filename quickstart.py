@@ -34,7 +34,7 @@ aoa = [["lastChangeDate", "2023-10-19T03,50,53"],["1/1/2222",5000],["1/1/2222",7
 
 #переменная с values_to_write (файл file_path = "data.txt") - работает
 
-#!!!не работает, если изменить в строке 5 data_copy.txt на data221.json
+#!!!не работает, если изменить в строке 5 data.txt на data221.json
 
 
 request = sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID,
