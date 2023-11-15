@@ -1,22 +1,14 @@
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
 from wrangle import DataProcessor
-import os
 
-cwd = os.path.dirname(file)
-file_path = "data_copy.txt"
-full_path_file_path = os.path.join(cwd, file_path)
+file_path = "data.txt"  # Adjust the file path as needed
 processor = DataProcessor(file_path)
+df = processor.main()
+df.insert(0, 'Ticker', df.index)
+values_to_write = df.T.reset_index().T.values.tolist()
 
-#file_path = "data.txt"  # Adjust the file path as needed
-#processor = DataProcessor(file_path)
-#df = processor.main()
-#df.insert(0, 'Ticker', df.index)
-#values_to_write = df.T.reset_index().T.values.tolist()
-
-
-servise_file = 'keys.json'
-SERVICE_ACCOUNT_FILE = os.path.join(cwd,servise_file)
+SERVICE_ACCOUNT_FILE = 'keys.json'
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
@@ -37,11 +29,16 @@ sheet = service.spreadsheets()
 #                             range="sales!a1:b6").execute()
 # values = result.get('values', [])
 
+#переменная с ручным массивом работает
 aoa = [["lastChangeDate", "2023-10-19T03,50,53"],["1/1/2222",5000],["1/1/2222",7000]]
+
+#переменная с values_to_write (файл file_path = "data_copy.txt") - работает
+
+#!!!не работает, если изменить в строке 5 data_copy.txt на data221.json
 
 
 request = sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID,
                                 range="PnL!B2", valueInputOption="USER_ENTERED", body=dict(majorDimension='ROWS',
-                                                                                          values=aoa)).execute()
+                                                                                          values=values_to_write)).execute()
 # print(values)
 print(request)
