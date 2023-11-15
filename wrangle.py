@@ -77,11 +77,3 @@ if __name__ == "__main__":
     processor = DataProcessor(file_path)
     result_df = processor.main()
     print(result_df)
-
-import os
-cwd = os.path.dirname(file)
-    file_path = "data_copy.txt"
- full_path_file = os.path.join(cwd, file_path )
-   processor = DataProcessor(full_path_file )
-    result_df = processor.main()
-    print(result_df
